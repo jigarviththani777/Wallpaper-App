@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".middale">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/wave11n2nn22u"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/wave11n2nn22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <RelativeLayout-->
+<!--        android:id="@+id/relativeLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:layout_marginEnd="5dp"-->
+<!--            android:background="@drawable/gradient"-->
+<!--            android:fontFamily="sans-serif-medium"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:text="Gods Wallpapers HD"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="28sp"-->
+<!--            android:textStyle="bold"-->
+<!--            tools:ignore="RtlCompat" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--    <LinearLayout-->
+
+<!--        android:id="@+id/linearLayout"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/gradiant3">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/images"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:src="@drawable/cwallpapers"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"/>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--&lt;!&ndash;        <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginBottom="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="@drawable/gradiant3"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:orientation="horizontal">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <com.airbnb.lottie.LottieAnimationView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/sharel"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginEnd="5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_gravity="center_vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_autoPlay="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_loop="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:lottie_rawRes="@raw/share22" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/share"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="130dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginEnd="5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:src="@drawable/cshare" />&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        </LinearLayout>&ndash;&gt;-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/gradiant3"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/privacy"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:src="@drawable/cprivacy" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/policy"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/cpolocy" />-->
+
+<!--        </LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/heading1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/heading2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/images"
+            android:layout_width="350dp"
+            android:textAllCaps="false"
+            android:shadowColor="@color/colorAccent"
+            android:shadowRadius="5"
+            android:shadowDx="8"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:layout_gravity="center"
+            android:text="All Wallpapers"
+            android:fontFamily="cursive"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/share"
+            android:layout_width="350dp"
+            android:layout_marginTop="15dp"
+            android:shadowColor="@color/colorAccent"
+            android:shadowRadius="5"
+            android:shadowDx="8"
+            android:textAllCaps="false"
+            android:fontFamily="cursive"
+            android:background="@drawable/button_bg"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Share App"
+            android:textColor="@color/white"
+            android:textSize="30sp"  />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rateapp"
+            android:layout_width="350dp"
+            android:textAllCaps="false"
+            android:shadowColor="@color/colorAccent"
+            android:shadowRadius="5"
+            android:shadowDx="8"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_bg"
+            android:text="Rate Us"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textSize="30sp"  />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/privacypolicy"
+            android:layout_width="350dp"
+            android:layout_marginTop="15dp"
+            android:shadowColor="@color/colorAccent"
+            android:shadowRadius="5"
+            android:shadowDx="8"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:layout_gravity="center"
+            android:text="Privacy Policy"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textSize="30sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/termsandconditions"
+            android:layout_width="350dp"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:shadowColor="@color/colorAccent"
+            android:shadowRadius="5"
+            android:shadowDx="8"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:layout_gravity="center"
+            android:text="Terms And Conditions"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/corner2" />
+
+    </RelativeLayout>
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        app:adSize="BANNER"-->
+<!--        app:adUnitId="ca-app-pub-3940256099942544/6300978111"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
+
+<!--    </com.google.android.gms.ads.AdView>-->
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/crismas31"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:lottie_rawRes="@raw/crismas3"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        android:layout_marginLeft="-30dp"-->
+<!--        android:layout_marginBottom="-10dp"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="110dp"/>-->
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/crismas32"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:lottie_rawRes="@raw/crismas3"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        android:layout_marginRight="-30dp"-->
+<!--        android:layout_marginBottom="-10dp"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="110dp"/>-->
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/crismas21"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/crismas31"-->
+<!--        app:lottie_rawRes="@raw/crismas2"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"-->
+<!--        android:layout_marginLeft="-40dp"-->
+<!--        android:layout_marginBottom="-20dp"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"/>-->
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/crismas22"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/crismas32"-->
+<!--        app:lottie_rawRes="@raw/crismas2"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"-->
+<!--        android:layout_marginRight="-40dp"-->
+<!--        android:layout_marginBottom="-20dp"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"/>-->
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/crismas22"-->
+<!--        app:layout_constraintStart_toEndOf="@id/crismas21"-->
+<!--        app:lottie_rawRes="@raw/crismas1"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        android:layout_marginRight="-40dp"-->
+<!--        android:layout_marginBottom="-10dp"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="110dp"/>-->
+
+<!--    <RelativeLayout-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--            android:id="@+id/adView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            ads:adSize="BANNER"-->
+<!--            ads:adUnitId="ca-app-pub-4833667347345148/5426717386">-->
+
+<!--        </com.google.android.gms.ads.AdView>-->
+
+
+<!--    </RelativeLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    ca-app-pub-4833667347345148/1371114462-->

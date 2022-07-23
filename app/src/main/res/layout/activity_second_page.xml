@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondPage"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:background="@drawable/gradient"-->
+<!--                android:fontFamily="sans-serif-medium"-->
+<!--                android:text="Gods Wallpapers HD"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="30sp"-->
+<!--                android:textStyle="bold"-->
+<!--                tools:ignore="RtlCompat" />-->
+
+
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/round5"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"/>-->
+
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+<!--                android:id="@+id/share"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                app:lottie_autoPlay="true"-->
+<!--                app:lottie_loop="true"-->
+<!--                app:lottie_rawRes="@raw/share22"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="30dp"/>-->
+
+<!--        </RelativeLayout>-->
+
+
+
+<!--        <TextView-->
+<!--            android:background="@color/black"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="5dp"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    Banner Ads space Bottom margin-->
+<!--    android:layout_marginBottom="60dp"-->
+
+    <RelativeLayout
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" />
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@drawable/wave11n2nn22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/diplomata"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDx="8"
+            android:shadowRadius="5"
+            android:text="All Wallpapers"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="23dp" />
+
+<!--        <View-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:background="@drawable/allwallpapers" />-->
+
+    </RelativeLayout>
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/lottie"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"-->
+<!--        app:lottie_rawRes="@raw/corner2" />-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@drawable/wave11n2nn22u"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+<!--    <RelativeLayout-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <com.google.android.gms.ads.AdView-->
+<!--            xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--            android:id="@+id/adView"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            ads:adSize="BANNER"-->
+<!--            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">-->
+<!--        </com.google.android.gms.ads.AdView>-->
+
+<!--    </RelativeLayout>-->
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4833667347345148/9877680780">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
